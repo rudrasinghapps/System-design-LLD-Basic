@@ -1,4 +1,4 @@
-package SystemDesign.class10;
+package SystemDesign.hashCode_and_equal;
 
 public class Bmw extends Car {
     int price;

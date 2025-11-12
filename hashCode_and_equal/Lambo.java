@@ -1,4 +1,4 @@
-package SystemDesign.class10;
+package SystemDesign.hashCode_and_equal;
 
 public class Lambo extends Car{
 
@@ -6,9 +6,6 @@ public class Lambo extends Car{
 
     public Lambo(int price, int speed) {
         super(price, speed);
-    }
-    public void lamboMethod(){
-        System.out.println("lambo method");
     }
 
     @Override
