@@ -11,8 +11,10 @@ public class Main {
         System.out.println(singletonClass1);
         System.out.println(singletonClass2);
 
-        singletonClass.details();
-        singletonClass1.details();
-        singletonClass2.details();
+        System.out.println(singletonClass.hashCode());
+        System.out.println(singletonClass1.hashCode());
+        System.out.println(singletonClass2.hashCode());
+
+
     }
 }
